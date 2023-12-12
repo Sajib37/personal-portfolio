@@ -6,7 +6,7 @@ const Sidebar = ({ isOpen, handleOpen }) => {
             isOpen ? "translate-x-0" : "-translate-x-full"}`}>
             
             <ul className="text-lg text-center py-14 space-y-4 text-white">
-                <NavLinks isOpen={isOpen}></NavLinks>
+                <NavLinks></NavLinks>
            </ul> 
         </section>
     );
