@@ -76,7 +76,7 @@ function App() {
       
       
       {isHomeVisible || (
-        <span className='p-2 bg-red-500 text-white fixed bottom-2 right-2 text-3xl'>
+        <span className='p-1 bg-transparent rounded-full text-pink-400 fixed bottom-6 right-4 text-4xl lg:text-5xl'>
           <a href='#home'><LuArrowUpCircle /></a>
         </span>
       )}

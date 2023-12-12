@@ -39,7 +39,7 @@ const Home = () => {
                 <button className="p-3 topMove flex items-center gap-1 rounded-full bg-[#FF6AC2] text-white transition-shadow hover:shadow-none font-semibold "style={{boxShadow:"0px 0px 10px 0px #FF6AC2"}} >Download Resume <FaDownload /></button>
             </div>
 
-            <img className="md:w-96 w-80 homeImg" src={image} alt="" />
+            <img className="md:w-96 w-64 mt-10 md:mt-4 homeImg" src={image} alt="" />
         </section>
     );
 };
