@@ -6,6 +6,8 @@ import { MdOutlineMenu } from 'react-icons/md';
 import { RxCross2 } from "react-icons/rx";
 import { LuArrowUpCircle } from "react-icons/lu";
 import Home from './Components/Home/Home';
+import About from './Components/About/About';
+import Journey from './Components/Journey/Journey';
 
 function App() {
 
@@ -53,11 +55,13 @@ function App() {
       <section id='home' className='min-h-screen font-roboto pt-10 md:pt-14 snap-start bg-bg1'>
         <Home></Home>
       </section>
+
       <section id='about' className='min-h-screen font-roboto pt-10 md:pt-14 snap-start bg-bg2'>
-        <h1 className='text-3xl  text-[#FF6AC2]'>My name is khan</h1>
+        <About></About>
       </section>
-      <section id='journey' className='min-h-screen font-roboto pt-10 md:pt-14snap-start bg-bg1'>
-        <h1 className='text-3xl  text-[#FF6AC2]'>My learning journey</h1>
+      
+      <section id='journey' className='min-h-screen font-roboto pt-10 md:pt-14 snap-start bg-bg1'>
+        <Journey></Journey>
       </section>
       <section id='skills' className='min-h-screen font-roboto pt-10 md:pt-14 snap-start bg-bg2'>
         skills
