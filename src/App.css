@@ -53,6 +53,153 @@
     transition: all 1s ease-in-out;
   }
 
+  /* Hover effect on juorney div */
+  .leftEffect{
+    height: 100%;
+    width: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #31304D;
+    border-radius: 20px;
+    transition: 0.8s;
+  }
+
+  .container:hover .leftEffect{
+    width: 100%;
+  }
+  
+  /* Skills styles*/
+  .skill h3{
+    font-weight: bold;
+  }
+  .skill li{
+    margin-top: 24px;
+  }
+  .bar{
+    background: transparent;
+    display: block;
+    height: 15px;
+    border: 1px solid #FF6AC2;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  }
+  .bar span{
+    height: 15px;
+    float: left;
+    background-color: #FF6AC2;
+  }
+  .html{
+    width: 90%;
+    animation: html 2s;
+  }
+  .css{
+    width: 70%;
+    animation: css 2s;
+  }
+  .javascript{
+    width: 60%;
+    animation: javascript 2s;
+  }
+  .tailwind{
+    width: 75%;
+    animation: tailwind 2s;
+  }
+  .react{
+    width: 70%;
+    animation: react 2s;
+  }
+  .mongodb{
+    width: 60%;
+    animation: mongodb 2s;
+  }
+  .node{
+    width: 40%;
+    animation: node 2s;
+  }
+  .express{
+    width: 25%;
+    animation: express 2s;
+  }
+
+
+  .upEffect{
+    width: 0px;
+    height: 0px;
+    background-color: #161A30;
+    transition: 0.8s;
+  }
+  .skill-container:hover .upEffect{
+    width: 100%;
+    height: 100%;
+  }
+
+
+  @keyframes html{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 90%;
+    }
+  } 
+  @keyframes css{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 70%;
+    }
+  } 
+  @keyframes javascript{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 60%;
+    }
+  } 
+  @keyframes tailwind{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 75%;
+    }
+  } 
+  @keyframes react{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 70%;
+    }
+  } 
+  @keyframes mongodb{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 60%;
+    }
+  } 
+  @keyframes node{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 40%;
+    }
+  } 
+  @keyframes express{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 25%;
+    }
+  } 
 
   /* keyFrames */
 

@@ -26,7 +26,7 @@ const Home = () => {
                 </span>
 
                 <p className="max-w-3xl leftMove">
-                I'm Experienced MERN Stack Developer with a focus on frontend excellence. Proficient in HTML, CSS, and JavaScript, specializing in React.js for building engaging and responsive user interfaces. While primarily dedicated to frontend development, I bring a comprehensive understanding of the MERN stack, including MongoDB, Express.js, and Node.js
+                As an aspiring junior MERN Stack Developer, I'm delving into the realms of HTML, CSS, and JavaScript with a keen focus on React.js. While currently dedicated to frontend development, my journey includes gaining familiarity with the MERN stack components, namely MongoDB, Express.js, and Node.js. Eager to build engaging user interfaces and expand my expertise in web development.
                 </p>
                 
                 <div className=" flex gap-4 topMove">

@@ -8,6 +8,8 @@ import { LuArrowUpCircle } from "react-icons/lu";
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Journey from './Components/Journey/Journey';
+import Skills from './Components/Skills/Skills';
+import Projects from './Components/Projects/Projects';
 
 function App() {
 
@@ -64,10 +66,10 @@ function App() {
         <Journey></Journey>
       </section>
       <section id='skills' className='min-h-screen font-roboto pt-10 md:pt-14 snap-start bg-bg2'>
-        skills
+        <Skills></Skills>
       </section>
       <section id='projects' className='min-h-screen font-roboto pt-10 md:pt-14 snap-start bg-bg1'>
-        projects
+        <Projects></Projects>
       </section>
       <section id='contact' className='min-h-screen font-roboto pt-10 md:pt-14 snap-start bg-bg2'>
         contact
