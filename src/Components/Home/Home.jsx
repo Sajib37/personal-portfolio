@@ -36,7 +36,7 @@ const Home = () => {
                     <a target="_blank" className="social-icon rounded-full p-2" href="https://www.instagram.com/sajib_hasan37/"><FaInstagram className="text-2xl "/></a>
                 </div>
 
-                <button className="p-3 topMove flex items-center gap-1 rounded-full bg-[#FF6AC2] text-white transition-shadow hover:shadow-none font-semibold "style={{boxShadow:"0px 0px 10px 0px #FF6AC2"}} >Download Resume <FaDownload /></button>
+                <button className="p-3 topMove  rounded-full bg-[#FF6AC2] text-white transition-shadow hover:shadow-none font-semibold "style={{boxShadow:"0px 0px 10px 0px #FF6AC2"}} ><a className="flex items-center gap-1" href="./../../assets/resume.pdf" download={true}>Download Resume <FaDownload /></a></button>
             </div>
 
             <img className="md:w-96 w-64 mt-10 md:mt-4 homeImg" src={image} alt="" />

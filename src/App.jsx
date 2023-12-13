@@ -56,21 +56,21 @@ function App() {
 
       
       
-      <section id='home' className='min-h-screen font-roboto pt-10 md:pt-14 snap-start bg-bg1'>
+      <section id='home' className='min-h-screen font-roboto pt-10 md:pt-14 bg-bg1'>
         <Home></Home>
       </section>
 
-      <section id='about' className='min-h-screen font-roboto pt-10 md:pt-14 snap-start bg-bg2'>
+      <section id='about' className='min-h-screen font-roboto pt-10 md:pt-14 bg-bg2'>
         <About></About>
       </section>
       
-      <section id='journey' className='min-h-screen font-roboto pt-10 md:pt-14 snap-start bg-bg1'>
+      <section id='journey' className='min-h-screen font-roboto pt-10 md:pt-14 bg-bg1'>
         <Journey></Journey>
       </section>
-      <section id='skills' className='min-h-screen font-roboto pt-10 md:pt-14 snap-start bg-bg2'>
+      <section id='skills' className='min-h-screen font-roboto pt-10 md:pt-14 bg-bg2'>
         <Skills></Skills>
       </section>
-      <section id='projects' className='min-h-screen font-roboto pt-10 md:pt-14 snap-start bg-bg1'>
+      <section id='projects' className='min-h-screen font-roboto pt-10 md:pt-14 bg-bg1'>
         <Projects></Projects>
       </section>
       <section id='contact' className='min-h-screen font-roboto pt-10 md:pt-14  bg-bg2'>

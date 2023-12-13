@@ -1,9 +1,11 @@
 import { FaCalendar } from "react-icons/fa";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const Academic = () => {
     return (
-        <section>
+        <section data-aos="fade-up-right" data-aos-duration="2000" data-aos-once='true'>
             <h1 className="text-2xl md:text-3xl mb-4 font-bold">Academic Journey :</h1>
             <ol className="relative border-s mx-auto border-gray-200 dark:border-gray-700 max-w-xs md:max-w-2xl">                  
                 <li className="mb-10 relative container ms-4">

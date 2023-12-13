@@ -5,11 +5,11 @@ const Skills = () => {
     return (
         <section className='max-w-screen-xl flex flex-col items-center gap-8 md:gap-14 lg:gap-20 justify-center mx-auto px-2 py-8 pb-12 min-h-screen text-white '>
             
-            <h1 className="font-bold downMove mb-4 text-center text-transparent lg:text-6xl text-4xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"><span className="text-white">My</span> Skills</h1>
+            <h1 data-aos="fade-down" data-aos-duration="2000" data-aos-once='true' className="font-bold downMove mb-4 text-center text-transparent lg:text-6xl text-4xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"><span className="text-white">My</span> Skills</h1>
 
             <section className='flex w-full topMove  flex-col md:flex-row gap-10 md:gap-10 items-center justify-center lg:justify-around'>
                 
-                <div className='skill relative skill-container  list-none  md:w-1/2 w-full px-3 border-2 border-[#FF6AC2] p-4 rounded-lg'>
+                <div data-aos="fade-down-right" data-aos-duration="2000" data-aos-once='true' className='skill relative skill-container  list-none  md:w-1/2 w-full px-3 border-2 border-[#FF6AC2] p-4 rounded-lg'>
 
                     <div className='upEffect absolute  rounded-lg top-0 left-0 '></div>
 
@@ -49,7 +49,7 @@ const Skills = () => {
                 </div>
 
 
-                <div className='skill  relative skill-container  list-none  md:w-1/2 w-full px-3 border-2 border-[#FF6AC2] p-4 rounded-lg'>
+                <div data-aos="fade-down-left" data-aos-duration="2000" data-aos-once='true' className='skill  relative skill-container  list-none  md:w-1/2 w-full px-3 border-2 border-[#FF6AC2] p-4 rounded-lg'>
                     
                     <div className='upEffect absolute  rounded-lg top-0 left-0 '></div>
                     <div className='relative'>
