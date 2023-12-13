@@ -50,11 +50,9 @@ function App() {
         }
       </span>
       <span className='md:hidden fixed top-2 z-30 right-3'><h1 className='leftMove font-playfair font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500'>SH</h1></span>
-      <div className={`fixed top-0 left-0 z-20 md:hidden ${open? 'z-30':'-z-30'}`}>        
-        <Sidebar isOpen={open} handleOpen={handleOpen}></Sidebar>
+      <div className={`fixed top-0 left-0  z-20 md:hidden transition-transform duration-700 ease-in-out ${open ? 'translate-x-0':'-translate-x-full'}`}>        
+        <Sidebar handleOpen={handleOpen}></Sidebar>
       </div>
-
-      
       
       <section id='home' className='min-h-screen font-roboto pt-10 md:pt-14 bg-bg1'>
         <Home></Home>

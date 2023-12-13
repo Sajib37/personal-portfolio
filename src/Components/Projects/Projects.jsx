@@ -12,8 +12,8 @@ import { MdLiveTv } from "react-icons/md";
 const Projects = () => {
     return (
         <section className="max-w-screen-xl pb-10 mx-auto flex flex-col justify-center items-center min-h-screen gap-8 md:gap-12">
-            <h1  data-aos="fade-down" data-aos-duration="1000" data-aos-once='true' className="font-bold downMove mb-4 text-center text-transparent lg:text-6xl text-4xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"><span className="text-white">My</span> Latest <span className="text-white">Projects</span></h1>
-
+            <h1  data-aos="fade-down" data-aos-duration="2000" data-aos-once='true' className="font-bold downMove mb-2 text-center text-transparent lg:text-6xl text-3xl md:text-4xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"><span className="text-white">My</span> Latest <span className="text-white">Projects</span></h1>
+            <h1 className='text-center font-semibold text-white'>(Expand details by clicking the image)</h1>
             <section  className='w-full grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-2'>
                 {/*matrimony  */}
                 <div data-aos="zoom-in" data-aos-duration="1000" data-aos-once='true' className='max-w-sm mx-auto relative project-container  h-64 rounded-lg'>

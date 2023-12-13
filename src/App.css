@@ -71,7 +71,8 @@
   
   /* Skills styles*/
   .skill h3{
-    font-weight: bold;
+    font-weight:700;
+    font-size: 14px;
   }
   .skill li{
     margin-top: 24px;

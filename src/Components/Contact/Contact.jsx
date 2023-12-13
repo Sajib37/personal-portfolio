@@ -44,7 +44,7 @@ const Contact = () => {
     }
     return (
         <section className="max-w-screen-xl mx-auto min-h-screen pb-10 flex flex-col items-center justify-center gap-8 lg:gap-20">
-            <h1 className="font-bold downMove text-center text-transparent lg:text-6xl text-4xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"><span className="text-white">Contact</span> With <span className="text-white">Me</span></h1>
+            <h1 data-aos="fade-down" data-aos-duration="2000" data-aos-once='true' className="font-bold text-center text-transparent lg:text-6xl text-3xl md:text-4xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"><span className="text-white">Contact</span> With <span className="text-white">Me</span></h1>
             <section className="w-full px-2 md:px-10 lg:px-2 text-white  mx-auto flex flex-col lg:flex-row justify-center items-center gap-8 md:gap-12">
             
                 <div className=" p-8 flex w-full mx-auto md:w-2/3 lg:w-1/2 flex-col items-start gap-2 rounded-lg" style={{boxShadow: "1px 1px 10px 0px #FF6AC2"}}>
@@ -94,7 +94,7 @@ const Contact = () => {
                             <label className="font-semibold">Your Message: *</label>
                             <textarea {...register('message')} className="textarea textarea-bordered" placeholder="Your message"></textarea>
                         </div>
-                        <button className="p-2 px-6 mt-2 mx-auto flex items-center gap-1 rounded-full bg-[#FF6AC2] text-white transition-shadow hover:shadow-none font-semibold "style={{boxShadow:"0px 0px 5px 0px #FF6AC2"}} >Send <BsFillSendFill /></button>
+                        <button className="p-2  px-6 mt-2 mx-auto flex items-center gap-1 rounded-full bg-[#FF6AC2] text-white transition-shadow hover:shadow-none font-semibold "style={{boxShadow:"0px 0px 5px 0px #FF6AC2"}} >Send to me<BsFillSendFill /></button>
                     </form>
                 </div>
             </section>
