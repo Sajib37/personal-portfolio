@@ -128,12 +128,31 @@
     width: 0px;
     height: 0px;
     background-color: #161A30;
-    transition: 0.8s;
+    transition: 0.5s;
   }
   .skill-container:hover .upEffect{
     width: 100%;
     height: 100%;
   }
+
+  .projectEffect{
+    width: 0px;
+    height: 0px;
+    background-color: #31304D;
+    transition: 1s;
+  }
+  .project-container:hover .projectEffect{
+    width: 100%;
+    height: 100%;
+  }
+  .project-container:hover .projectEffect .inner-content{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  /* For project Image */
 
 
   @keyframes html{

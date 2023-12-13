@@ -10,6 +10,8 @@ import About from './Components/About/About';
 import Journey from './Components/Journey/Journey';
 import Skills from './Components/Skills/Skills';
 import Projects from './Components/Projects/Projects';
+import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
 
 function App() {
 
@@ -71,10 +73,13 @@ function App() {
       <section id='projects' className='min-h-screen font-roboto pt-10 md:pt-14 snap-start bg-bg1'>
         <Projects></Projects>
       </section>
-      <section id='contact' className='min-h-screen font-roboto pt-10 md:pt-14 snap-start bg-bg2'>
-        contact
+      <section id='contact' className='min-h-screen font-roboto pt-10 md:pt-14  bg-bg2'>
+        <Contact></Contact>
       </section>
-
+      <section className='bg-bg1'>
+        <Footer></Footer>
+      </section>
+      
       
       
       {isHomeVisible || (

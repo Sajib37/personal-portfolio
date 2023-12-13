@@ -14,9 +14,9 @@ const Home = () => {
                     I'm a 
                 <TypeAnimation
                     sequence={[
-                        ' Front-End Developer',
-                        500,
                         ' MERN Stack Developer',
+                        500,
+                        ' mern Stack Developer',
                        500,
                     ]}
                     style={{ color: "#FF6AC2", fontWeight:'bold'}}

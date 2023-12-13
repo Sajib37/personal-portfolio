@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../App.css'
 
 const Skills = () => {
     return (
@@ -31,14 +32,14 @@ const Skills = () => {
                         </li>
                         <li>
                         <div className='flex justify-between px-2 mb-2'>
-                                <h3>HTML</h3>
+                                <h3>Javascript</h3>
                                 <h3>60%</h3>
                             </div>
                             <span className='bar'> <span className='javascript'></span></span>
                         </li>
                         <li>
                         <div className='flex justify-between px-2 mb-2'>
-                                <h3>HTML</h3>
+                                <h3>Tailwind</h3>
                                 <h3>75%</h3>
                             </div>
                             <span className='bar'> <span className='tailwind'></span></span>
