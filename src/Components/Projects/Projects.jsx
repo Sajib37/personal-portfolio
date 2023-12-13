@@ -1,7 +1,7 @@
 import matrimony from '../../assets/images/matrimony.jpg'
 import autoHaven from '../../assets/images/autoHaven.jpg'
 import surplusSustain from '../../assets/images/surplus-sustain.jpg'
-import festiveFusion from '../../assets/images/festiveFusion.jpg'
+import festiveFusion from '../../assets/images/festivefusion.jpg'
 import phtube from '../../assets/images/phtube.jpg'
 import donation from '../../assets/images/donation.jpg'
 

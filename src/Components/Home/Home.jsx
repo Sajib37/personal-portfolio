@@ -35,7 +35,7 @@ const Home = () => {
                     <a target="_blank" className="social-icon rounded-full p-2 cursor-pointer" href="https://www.facebook.com/mirror36"><FaFacebook className="md:text-2xl text-xl " /></a>
                     <a target="_blank" className="social-icon rounded-full p-2 cursor-pointer" href="https://www.instagram.com/sajib_hasan37/"><FaInstagram className="md:text-2xl text-xl "/></a>
                 </div>
-                <button className="p-2 md:px-3 topMove rounded-full bg-[#FF6AC2] text-white transition-shadow hover:shadow-none font-semibold "style={{boxShadow:"0px 0px 10px 0px #FF6AC2"}} ><a className="flex items-center gap-1" href="./../../assets/resume.pdf" download={true}>Download Resume <FaDownload /></a></button>
+                <button className="p-2 md:px-3 topMove rounded-full bg-[#FF6AC2] text-white transition-shadow hover:shadow-none font-semibold "style={{boxShadow:"0px 0px 10px 0px #FF6AC2"}} ><a target="_blank" className="flex items-center gap-1" href="resume.pdf" download>Download Resume <FaDownload /></a></button>
             </div>
 
             <img className="lg:w-96 md:w-80 w-64 mt-10 md:mt-4 homeImg" src={image} alt="" />
