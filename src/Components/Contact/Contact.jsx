@@ -18,7 +18,7 @@ const Contact = () => {
             email: data.email,
             message: data.message
         }
-        fetch("http://localhost:5000/message", {
+        fetch("https://personal-portfolio-server-eta.vercel.app/message", {
             method: "POST",
             headers: {
                 "content-type": "application/json",
