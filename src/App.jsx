@@ -44,13 +44,13 @@ function App() {
       </nav>
 
       {/* For sidebar */}
-      <span onClick={handleOpen} className="text-white text-3xl  p-1 fixed md:hidden top-2 z-30 left-2">
+      <span onClick={handleOpen} className="text-white text-3xl  p-1 fixed md:hidden top-2 z-40 left-2">
         {
           open?<RxCross2 />:<MdOutlineMenu />
         }
       </span>
-      <span className='md:hidden fixed top-2 right-3'><h1 className='leftMove font-playfair font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500'>SH</h1></span>
-      <div className='fixed top-0 left-0 z-20 md:hidden'>        
+      <span className='md:hidden fixed top-2 z-30 right-3'><h1 className='leftMove font-playfair font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500'>SH</h1></span>
+      <div className={`fixed top-0 left-0 z-20 md:hidden ${open? 'z-30':'-z-30'}`}>        
         <Sidebar isOpen={open} handleOpen={handleOpen}></Sidebar>
       </div>
 
@@ -83,7 +83,7 @@ function App() {
       
       
       {isHomeVisible || (
-        <span className='p-1 bg-transparent rounded-full text-pink-400 fixed bottom-6 right-4 text-4xl lg:text-5xl'>
+        <span className='p-1 bg-transparent rounded-full text-pink-400 fixed bottom-10 right-4 text-4xl lg:text-5xl'>
           <a href='#home'><LuArrowUpCircle /></a>
         </span>
       )}
