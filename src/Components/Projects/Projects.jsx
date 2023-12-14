@@ -16,7 +16,7 @@ const Projects = () => {
             <h1 className='text-center font-semibold text-white'>(Expand details by clicking the image)</h1>
             <section  className='w-full grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-2'>
                 {/*matrimony  */}
-                <div data-aos="zoom-in" data-aos-duration="1000" data-aos-once='true' className='max-w-sm mx-auto relative project-container  h-64 rounded-lg'>
+                <div data-aos="fade-up" data-aos-duration="2000" data-aos-once='true' className='max-w-sm mx-auto relative project-container  h-64 rounded-lg'>
                     
                     <div className='projectEffect absolute z-20 opacity-70  rounded-lg top-0 left-0 '>
                         
@@ -35,7 +35,7 @@ const Projects = () => {
                 </div>
 
                 {/* Auto Haven */}
-                <div data-aos="zoom-in" data-aos-duration="1000" data-aos-once='true' className='max-w-sm mx-auto relative project-container  h-64 rounded-lg'>
+                <div data-aos="fade-up" data-aos-duration="2000" data-aos-once='true' className='max-w-sm mx-auto relative project-container  h-64 rounded-lg'>
                     
                     <div className='projectEffect absolute z-20 opacity-80  rounded-lg top-0 left-0 '>
                         
@@ -55,7 +55,7 @@ const Projects = () => {
                 </div>
 
                 {/* Surplus sustain */}
-                <div data-aos="zoom-in" data-aos-duration="1000" data-aos-once='true' className='max-w-sm mx-auto relative project-container  h-64 rounded-lg'>
+                <div data-aos="fade-up" data-aos-duration="2000" data-aos-once='true' className='max-w-sm mx-auto relative project-container  h-64 rounded-lg'>
                     
                     <div className='projectEffect absolute z-20 opacity-80  rounded-lg top-0 left-0 '>
                         
@@ -75,7 +75,7 @@ const Projects = () => {
                 </div>
 
                 {/* Festive  Fusion */}
-                <div data-aos="zoom-in" data-aos-duration="1000" data-aos-once='true' className='max-w-sm mx-auto relative project-container  h-64 rounded-lg'>
+                <div data-aos="fade-up" data-aos-duration="2000" data-aos-once='true' className='max-w-sm mx-auto relative project-container  h-64 rounded-lg'>
                     
                     <div className='projectEffect absolute z-20 opacity-80  rounded-lg top-0 left-0 '>
                         
@@ -95,7 +95,7 @@ const Projects = () => {
                 </div>
 
                 {/* donation */}
-                <div data-aos="zoom-in" data-aos-duration="1000" data-aos-once='true' className='max-w-sm mx-auto relative project-container  h-64 rounded-lg'>
+                <div data-aos="fade-up" data-aos-duration="2000" data-aos-once='true' className='max-w-sm mx-auto relative project-container  h-64 rounded-lg'>
                     
                     <div className='projectEffect absolute z-20 opacity-80  rounded-lg top-0 left-0 '>
                         
@@ -116,7 +116,7 @@ const Projects = () => {
                 </div>
 
                 {/* PHtube */}
-                <div data-aos="zoom-in" data-aos-duration="1000" data-aos-once='true' className='max-w-sm mx-auto relative project-container  h-64 rounded-lg'>
+                <div data-aos="fade-up" data-aos-duration="2000" data-aos-once='true' className='max-w-sm mx-auto relative project-container  h-64 rounded-lg'>
                     
                     <div className='projectEffect absolute z-20 opacity-80  rounded-lg top-0 left-0 '>
                         

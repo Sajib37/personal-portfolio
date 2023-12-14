@@ -9,7 +9,7 @@ const Skills = () => {
 
             <section  data-aos-once='true' className='flex w-full topMove  flex-col md:flex-row gap-10 md:gap-10 items-center justify-center lg:justify-around'>
                 
-                <div data-aos="fade-up" data-aos-duration="2000" className='skill relative skill-container  list-none  md:w-1/2 w-full px-3 border-2 border-[#FF6AC2] p-4 rounded-lg'>
+                <div data-aos="fade-up" data-aos-duration="2000"  data-aos-once='true' className='skill relative skill-container  list-none  md:w-1/2 w-full px-3 border-2 border-[#FF6AC2] p-4 rounded-lg'>
 
                     <div className='upEffect absolute  rounded-lg top-0 left-0 '></div>
 
@@ -49,7 +49,7 @@ const Skills = () => {
                 </div>
 
 
-                <div data-aos="fade-up" data-aos-duration="2000" className='skill  relative skill-container  list-none  md:w-1/2 w-full px-3 border-2 border-[#FF6AC2] p-4 rounded-lg'>
+                <div data-aos="fade-up" data-aos-duration="2000"  data-aos-once='true' className='skill  relative skill-container  list-none  md:w-1/2 w-full px-3 border-2 border-[#FF6AC2] p-4 rounded-lg'>
                     
                     <div className='upEffect absolute  rounded-lg top-0 left-0 '></div>
                     <div className='relative'>
